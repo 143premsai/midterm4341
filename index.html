@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MidTerm</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <h1 class="text-center"> Conestoga Cafe <br> always fresh</h1>
+        </div>
+        <div class="col"></div>
+    </div>
+
+    <div class="container backForm">
+        <div class="row">
+            <div class="col">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Chess Pie.jpg" alt="Chess Pie image">
+                    <figcaption class="figure-caption text-center"> Chess Pie </figcaption>
+                    <div class="">Calories: 150 <br> Fat: 5% </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Chocolate Chip Bread.jpg" alt="Chocolate Chip Bread image">
+                    <figcaption class="figure-caption text-center">Chocolate Chip Bread</figcaption>
+                    <div>Calories: 200 <br> Fat: 8% </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Chocolate Potato Cake.jpg" alt="Chocolate Potato Cake image">
+                    <figcaption class="figure-caption text-center">Chocolate Potato Cake</figcaption>
+                    <div>Calories: 250 <br> Fat: 9% </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Coffee Cake.jpg" alt="Coffe Cake image">
+                    <figcaption class="figure-caption text-center">Coffee Cake</figcaption>
+                    <div>Calories: 100 <br> Fat: 6% </div>
+                </div>
+
+            </div>
+            <div class="col ">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Ginger Bread Cake.jpg" alt="Ginger Bread cake image">
+                    <figcaption class="figure-caption text-center">Ginger Bread Cake</figcaption>
+                    <div>Calories: 80 <br> Fat: 3% </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col ">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Pecan Rum Bars.jpg" alt="Pecan Rum Bars image">
+                    <figcaption class="figure-caption text-center">Pecan Rum Bars</figcaption>
+                    <div>Calories: 120 <br> Fat: 4% </div>
+                </div>
+
+            </div>
+            <div class="col ">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Skillet Herb Bread.jpg" alt="Skillet Herb Bread image">
+                    <figcaption class="figure-caption text-center">Skillet Herb Bread</figcaption>
+                    <div>Calories: 50 <br> Fat: 3% </div>
+                </div>
+
+            </div>
+            <div class="col ">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Spice Cookies.jpg" alt="Spice Cookies image">
+                    <figcaption class="figure-caption text-center">Spice Cookies</figcaption>
+                    <div>Calories: 30 <br> Fat: 1% </div>
+                </div>
+
+            </div>
+            <div class="col ">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Wild Rice Bread.jpg" alt="Wild Rice Bread image">
+                    <figcaption class="figure-caption text-center">Wild Rice Bread</figcaption>
+                    <div>Calories: 75 <br> Fat: 1.3% </div>
+                </div>
+
+            </div>
+            <div class="col ">
+                <div class="image-hover">
+                    <img class="rounded" src="assets/Yeast Rolls.jpg" alt="Yeast Rolls image">
+                    <figcaption class="figure-caption text-center">Yeast Rolls</figcaption>
+                    <div>Calories: 60 <br> Fat: 2.4% </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderBackdrop">Place
+                    Order</button>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="orderBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body card">
+                        <div class="text-center order">
+                            Order Successful
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="justify-content: center;">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
